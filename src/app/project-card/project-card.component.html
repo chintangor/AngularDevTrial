@@ -1,0 +1,13 @@
+<div class="project-card col-md-6">
+    <img class="project-card-img" src="./../../assets/env_project_images/{{productItem.image}}" />
+    <div *ngIf="productItem.is_buy_now" class="top-right">
+        <button class="btn-buy-now">BUY NOW</button>
+        <p class="top-right-price">$7.50 / ton</p>
+    </div>
+    <div class="bottom-left">{{productItem.location}}</div>
+    <div class="content">
+        <h5 class="project-title">{{productItem.title}}</h5>
+        <h5 class="project-price">{{productItem.price}}</h5>
+        <p>{{productItem.description}}</p>
+    </div>
+</div>

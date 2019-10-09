@@ -1,0 +1,41 @@
+.project-card{
+    padding: 10px;
+}
+.project-card-img{
+    width: 100%;
+    height: 200px;
+}
+.project-title{
+    color: red;
+    font-weight: 700;
+}
+.project-price{
+    color: green;
+    font-weight: 700;
+}
+
+.top-right {
+    position: absolute;
+    top: 20px;
+    right: 16px;
+  }
+.bottom-left {
+  position: absolute;
+  bottom: 130px;
+  left: 16px;
+  color: white;
+  background: rgba(0, 0, 0, 0.50);
+  padding: 10px;
+}
+.btn-buy-now{
+    color: white;
+    background-color: green;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.top-right-price{
+    color: white;
+  background: rgba(0, 0, 0, 0.50);
+  padding: 10px;
+  font-size: 12px;
+}
